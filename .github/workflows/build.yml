@@ -184,7 +184,7 @@ jobs:
             echo "timezone = $TZ"
             echo "locale = $LOCALE"
             echo "is_default_channel = False"
-            echo "service_manager = systemd"
+            echo "service_manager = openrc"
             echo "extra_packages = $EXTRA"
             echo "build_pkgs_on_install = False"
             echo
